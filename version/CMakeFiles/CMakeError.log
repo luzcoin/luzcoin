@@ -1,0 +1,67 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd7fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd7fe.dir/build.make CMakeFiles/cmTC_cd7fe.dir/build
+make[1]: se ingresa al directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cd7fe.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTC_cd7fe.dir/CheckSymbolExists.c.o   -c /home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cd7fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd7fe.dir/link.txt --verbose=1
+/usr/bin/gcc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes     CMakeFiles/cmTC_cd7fe.dir/CheckSymbolExists.c.o  -o cmTC_cd7fe -rdynamic 
+CMakeFiles/cmTC_cd7fe.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_cd7fe] Error 1
+make[1]: se sale del directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+make: *** [cmTC_cd7fe/fast] Error 2
+
+File /home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cebf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cebf3.dir/build.make CMakeFiles/cmTC_cebf3.dir/build
+make[1]: se ingresa al directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cebf3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cebf3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_cebf3.dir/CheckFunctionExists.c.o] Error 1
+make[1]: se sale del directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+make: *** [cmTC_cebf3/fast] Error 2
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa9e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa9e7.dir/build.make CMakeFiles/cmTC_fa9e7.dir/build
+make[1]: se ingresa al directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_fa9e7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fa9e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_fa9e7.dir/CheckFunctionExists.c.o] Error 1
+make[1]: se sale del directorio «/home/antonio/Descargas/cryptonote/cryptonote-master/CMakeFiles/CMakeTmp»
+make: *** [cmTC_fa9e7/fast] Error 2
+
+
