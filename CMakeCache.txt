@@ -247,10 +247,10 @@ Common_LIB_DEPENDS:STATIC=
 CryptoNoteCore_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-CryptoNote_BINARY_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master
+CryptoNote_BINARY_DIR:STATIC=/home/antonio/luzcoin
 
 //Value Computed by CMake
-CryptoNote_SOURCE_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master
+CryptoNote_SOURCE_DIR:STATIC=/home/antonio/luzcoin
 
 //Dependencies for target
 Crypto_LIB_DEPENDS:STATIC=
@@ -316,13 +316,13 @@ UPNPC_BUILD_TESTS:BOOL=OFF
 Wallet_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master/external/gtest
+gtest_BINARY_DIR:STATIC=/home/antonio/luzcoin/external/gtest
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-pthread;
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master/external/gtest
+gtest_SOURCE_DIR:STATIC=/home/antonio/luzcoin/external/gtest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -341,10 +341,10 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-pthread;general;gtest;
 
 //Value Computed by CMake
-miniupnpc_BINARY_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master/external/miniupnpc
+miniupnpc_BINARY_DIR:STATIC=/home/antonio/luzcoin/external/miniupnpc
 
 //Value Computed by CMake
-miniupnpc_SOURCE_DIR:STATIC=/home/antonio/Descargas/cryptonote/cryptonote-master/external/miniupnpc
+miniupnpc_SOURCE_DIR:STATIC=/home/antonio/luzcoin/external/miniupnpc
 
 //Dependencies for target
 upnpc-static_LIB_DEPENDS:STATIC=
@@ -397,7 +397,7 @@ Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
-CMAKE_CACHEFILE_DIR:INTERNAL=/home/antonio/Descargas/cryptonote/cryptonote-master
+CMAKE_CACHEFILE_DIR:INTERNAL=/home/antonio/luzcoin
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
@@ -468,7 +468,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/antonio/Descargas/cryptonote/cryptonote-master
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/antonio/luzcoin
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
